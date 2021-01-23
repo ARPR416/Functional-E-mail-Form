@@ -1,0 +1,83 @@
+
+html {
+  background-color: #FFFAFA ;
+}
+
+section {
+  margin-bottom: 100px;
+}
+section h2 {
+  color: #2F4F4F; 
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; 
+  font-size: 32px;
+  border-bottom: 1px solid #2F4F4F;
+  padding-bottom: 20px
+}
+
+form {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+form textarea {
+  height: 200px;
+}
+
+form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-color: gainsboro;
+    color: #fff;
+    margin: 0 8px 10px 0;
+}
+
+section img {
+  width: 100%;
+  height: 85%;
+}
+.contact-image {
+  border: 1px solid #ababab;
+  border-radius: 8px;
+}
+
+/* Groups & Items  (Mobile First) */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.item {
+  flex: 2;
+  margin: 10px;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+
+.item-double {
+  flex: 1;
+  margin: 10px;
+}
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
