@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>E-mail.Me!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+  <main>
+
+    <section>
+      <h2> Contact Me</h2>
+      <div class= "group">
+      <div class "item item-double">   
+       <form action="https://formspree.io/f/xzbkozqg" method="POST">
+         <label for="user-name">Name:</lable>  
+         <input id="user-name" type="text" name="name" placeholder="Enter Full Name">
+
+           <label for="user-email">E-mail:</label>
+           <input id="user-email" type="text" name="email" placeholder="Enter E-mail Address">
+        
+         <!--  <label for="subject"> Subject:</label>
+           <input id="subject" type="text" name="subject" placeholder="Enter Subject"> -->
+
+           <label for="user-message">Your message:</label>
+           <textarea id="user-message" name="message"
+           placeholder="What do you want to talk about ?"></textarea>
+           <button type="submit">Submit</button>
+          </form>
+         </div>
+        <div class="item">
+        <img src="images/Coffee and Phone.jpg" class="contact-image">
+        </div>
+      </div>
+     </section>
+    </main>
+    <script src="script.js"></script>    
+  </body>
+</html>
